@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[SW모의역량] 보물상자비밀번호", "[SW모의역량] 보물상자비밀번호\[SW모의역량] 보물상자비밀번호.vcxproj", "{658CDB1C-E1A6-421E-BF3A-4C1842675F3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{658CDB1C-E1A6-421E-BF3A-4C1842675F3F}.Debug|x64.ActiveCfg = Debug|x64
+		{658CDB1C-E1A6-421E-BF3A-4C1842675F3F}.Debug|x64.Build.0 = Debug|x64
+		{658CDB1C-E1A6-421E-BF3A-4C1842675F3F}.Debug|x86.ActiveCfg = Debug|Win32
+		{658CDB1C-E1A6-421E-BF3A-4C1842675F3F}.Debug|x86.Build.0 = Debug|Win32
+		{658CDB1C-E1A6-421E-BF3A-4C1842675F3F}.Release|x64.ActiveCfg = Release|x64
+		{658CDB1C-E1A6-421E-BF3A-4C1842675F3F}.Release|x64.Build.0 = Release|x64
+		{658CDB1C-E1A6-421E-BF3A-4C1842675F3F}.Release|x86.ActiveCfg = Release|Win32
+		{658CDB1C-E1A6-421E-BF3A-4C1842675F3F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F0012AF-090C-4737-8B8E-67FE3ACA7612}
+	EndGlobalSection
+EndGlobal
