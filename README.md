@@ -1,7 +1,6 @@
 ##  SW Expert Academy 
 
-SW Expert Acadey의 문제의 solution
-
+SW Expert Academy의 문제풀이
 
 ## BkJoon Online judge 
 
