@@ -1,3 +1,6 @@
+// DFS를 이용했을경우에는 너무많은 경우의수가 생겨나기때문에
+// 백트레킹을 이용해도 시간초과 BFS를 이용해야함
+
 #include <iostream>
 #include <string>
 
