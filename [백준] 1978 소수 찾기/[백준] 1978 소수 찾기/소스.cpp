@@ -22,6 +22,8 @@ void findPrime(int n) {
 		}
 	}
 }
+
+
 void print(int n) {
 	for (int i = 0; i < n; i++) {
 		cout << i + 1 << " : " << prime[i] << " \n";
