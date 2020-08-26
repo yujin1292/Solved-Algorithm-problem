@@ -23,8 +23,8 @@ int main() {
 		memo[n] = min + 1;
 
 	}
-	cout << memo[N] << endl;
 
+	cout << memo[N] << endl;
 
 	return 0;
 }
