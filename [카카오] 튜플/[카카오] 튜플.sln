@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[카카오] 튜플", "[카카오] 튜플\[카카오] 튜플.vcxproj", "{C6736AC8-2A79-4C28-8561-DF8C5BCFB1B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6736AC8-2A79-4C28-8561-DF8C5BCFB1B9}.Debug|x64.ActiveCfg = Debug|x64
+		{C6736AC8-2A79-4C28-8561-DF8C5BCFB1B9}.Debug|x64.Build.0 = Debug|x64
+		{C6736AC8-2A79-4C28-8561-DF8C5BCFB1B9}.Debug|x86.ActiveCfg = Debug|Win32
+		{C6736AC8-2A79-4C28-8561-DF8C5BCFB1B9}.Debug|x86.Build.0 = Debug|Win32
+		{C6736AC8-2A79-4C28-8561-DF8C5BCFB1B9}.Release|x64.ActiveCfg = Release|x64
+		{C6736AC8-2A79-4C28-8561-DF8C5BCFB1B9}.Release|x64.Build.0 = Release|x64
+		{C6736AC8-2A79-4C28-8561-DF8C5BCFB1B9}.Release|x86.ActiveCfg = Release|Win32
+		{C6736AC8-2A79-4C28-8561-DF8C5BCFB1B9}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B75F07E-D172-4A51-8960-DF2104D0729F}
+	EndGlobalSection
+EndGlobal
