@@ -17,7 +17,7 @@ void build_paillar(int x, int y, int op) {
 	
 	else paillar[x][y] = 0;
 
-	cout << "build 기둥" <<x <<","<< y << " " <<  paillar[x][y] << endl;
+	//cout << "build 기둥" <<x <<","<< y << " " <<  paillar[x][y] << endl;
 }
 void build_ceiling(int x, int y, int op) {
 	if (op) ceiling[x][y] = 1;
@@ -29,12 +29,12 @@ void build_ceiling(int x, int y, int op) {
 
 bool check_ceiling(int x, int y, int op) {
 	if (op) { // 천장 설치 
+		
 		//바닥에 기둥있는지 확인
 		if (paillar[x][y-1]) return true;
-		if (paillar[x+1][y - 1]) return true;
-
-		if (x == 0 || x == N) return false;
-		if (ceiling[x-1][y] && ceiling[x+1][y]) //양옆 천장
+		if (x!=N && paillar[x+1][y - 1]) return true;
+		// 양옆에천장이 있는지 확인
+		if (x != 0 && x != N && ceiling[x-1][y] && ceiling[x+1][y])
 			return true;
 
 		return false;
@@ -42,13 +42,24 @@ bool check_ceiling(int x, int y, int op) {
 	else { //제거
 
 		ceiling[x][y] = 0;
+		//왼쪽위의 기둥이 나 빼고도 괜찮은지 확인 
+		if (y != N && paillar[x][y] && !check_paillar(x, y , 1)) {
+			ceiling[x][y] = 1;
+			return false;
+		}
+		//오른쪽위의 기둥이 나 빼고도 괜찮은지 확인 
+		if (y != N && paillar[x+1][y] && !check_paillar(x+1, y, 1)) {
+			ceiling[x][y] = 1;
+			return false;
+		}
+
 		//좌측 천장 나없이 지탱가능한지 확인
-		if (x!=0 && !check_ceiling(x-1, y + 1, 1)) {
+		if (x!=0 && ceiling[x-1][y] && !check_ceiling(x-1, y, 1)) {
 			ceiling[x][y] = 1;
 			return false;
 		}
 		//우측 천장 나없이 지탱가능한지 확인
-		if (x!=N && !check_ceiling(x, y +1, 1)) {
+		if (x+1!=N && ceiling[x+1][y] && !check_ceiling(x+1, y, 1)) {
 			ceiling[x][y] = 1;
 			return false;
 		}
@@ -61,22 +72,27 @@ bool check_paillar(int x, int y, int op) {
 	if (op) { // 설치
 		if (y == 0) return true; //맨바닥
 		if (paillar[x][y-1]) return true; //밑에 기둥이있음
-		if (ceiling[x][y] || ceiling [x-1][y]) return true; //밑에 천장있음
+		if (x!=N && ceiling[x][y]) return true;
+		if (x!=0 && ceiling[x - 1][y]) return true; //밑에 천장있음
 
 		return false;
 	}
 	else { //제거 
 		
-		if (paillar[x][y+1]) return false; //위에 기둥있음
-		
 		paillar[x][y] = 0;
+
+		//위의 기둥이 나 빼고도 괜찮은지 확인 
+		if (y != N && paillar[x][y + 1] && !check_paillar(x, y + 1, 1)){
+			paillar[x][y] = 1;
+			return false;
+		}
 		//좌측 천장 나없이 지탱가능한지 확인
-		if (x!=0 && !check_ceiling(x - 1, y+1, 1) ) {
+		if (x!=0 && y!=N && ceiling[x-1][y+1] && !check_ceiling(x - 1, y+1, 1) ) {
 			paillar[x][y] = 1;
 			return false;
 		}
 		//우측 천장 나없이 지탱가능한지 확인
-		if (x!=N && !check_ceiling(x, y+1, 1)) {
+		if (x!=N && y != N && ceiling[x][y + 1] && !check_ceiling(x, y+1, 1)) {
 			paillar[x][y] = 1;
 			return false;
 		}

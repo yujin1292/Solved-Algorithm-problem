@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[카카오 공채] 2", "[카카오 공채] 2\[카카오 공채] 2.vcxproj", "{AE0B84D8-9BEE-4906-9F4D-9C1B00A49515}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE0B84D8-9BEE-4906-9F4D-9C1B00A49515}.Debug|x64.ActiveCfg = Debug|x64
+		{AE0B84D8-9BEE-4906-9F4D-9C1B00A49515}.Debug|x64.Build.0 = Debug|x64
+		{AE0B84D8-9BEE-4906-9F4D-9C1B00A49515}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE0B84D8-9BEE-4906-9F4D-9C1B00A49515}.Debug|x86.Build.0 = Debug|Win32
+		{AE0B84D8-9BEE-4906-9F4D-9C1B00A49515}.Release|x64.ActiveCfg = Release|x64
+		{AE0B84D8-9BEE-4906-9F4D-9C1B00A49515}.Release|x64.Build.0 = Release|x64
+		{AE0B84D8-9BEE-4906-9F4D-9C1B00A49515}.Release|x86.ActiveCfg = Release|Win32
+		{AE0B84D8-9BEE-4906-9F4D-9C1B00A49515}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C20A645-6B62-498D-9CD6-E6CD3721EC7E}
+	EndGlobalSection
+EndGlobal
