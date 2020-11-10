@@ -29,10 +29,6 @@ vector<string> solution(vector<string> orders, vector<int> course) {
 	}
 
 	map<string, int>::iterator iter;
-	//for (iter = m.begin(); iter != m.end(); iter++) {
-
-	//	cout << (*iter).first << ": " << (*iter).second << endl;
-	//}
 
 	for (int i = 0; i < course.size(); i++) {
 		int max = 0;

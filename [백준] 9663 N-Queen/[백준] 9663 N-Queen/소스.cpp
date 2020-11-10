@@ -8,7 +8,6 @@ int col[MAX];
 int rr[MAX * 2];
 int ll[MAX * 2];
 
-
 void dfs(int x, int y, int count) {
 
 	if (count == N) {
