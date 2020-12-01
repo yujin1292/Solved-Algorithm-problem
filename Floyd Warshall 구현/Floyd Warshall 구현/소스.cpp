@@ -11,7 +11,7 @@ int a[4][4] = {
 	{INF,INF,3,0}
 };
 
-void folydWarsharr() {
+void folydWarshall() {
 	//√ ±‚»≠
 	int d[number][number];
 	for (int i = 0; i < number; i++)
@@ -40,5 +40,5 @@ void folydWarsharr() {
 }
 
 int main() {
-	folydWarsharr();
+	folydWarshall();
 }
