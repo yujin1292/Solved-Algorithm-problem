@@ -29,7 +29,7 @@ int KMP_search() {
 		}
 		i++;
 		j++;
-		if (j == p.size()-1)
+		if (j == p.size())
 			return i - j; //패턴찾음
 	}
 	return -1; //실패
