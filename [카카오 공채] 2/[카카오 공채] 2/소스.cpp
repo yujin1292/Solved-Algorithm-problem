@@ -14,14 +14,17 @@ vector<string> solution(vector<string> orders, vector<int> course) {
 	map<string , int>  m;
 
 	for (int o = 0; o < orders.size() ; o++) {
+	
 		sort(orders[o].begin(), orders[o].end());
+
 		for (int i = 0; i < pow(2, orders[o].size()); i++) {
 			int t = 1;
 			string temp = "";
 
 			for (int j = 0; j < orders[o].size(); j++) {
-				if (i & t)
+				if (i & t) 
 					temp.insert(temp.end(), orders[o][j]);
+
 				t *= 2;
 			}
 			m[temp]++;
