@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[백준] 11659번 구간 합 구하기 4", "[백준] 11659번 구간 합 구하기 4\[백준] 11659번 구간 합 구하기 4.vcxproj", "{89ACC8F2-8F3A-43B3-A659-86E074068B8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89ACC8F2-8F3A-43B3-A659-86E074068B8D}.Debug|x64.ActiveCfg = Debug|x64
+		{89ACC8F2-8F3A-43B3-A659-86E074068B8D}.Debug|x64.Build.0 = Debug|x64
+		{89ACC8F2-8F3A-43B3-A659-86E074068B8D}.Debug|x86.ActiveCfg = Debug|Win32
+		{89ACC8F2-8F3A-43B3-A659-86E074068B8D}.Debug|x86.Build.0 = Debug|Win32
+		{89ACC8F2-8F3A-43B3-A659-86E074068B8D}.Release|x64.ActiveCfg = Release|x64
+		{89ACC8F2-8F3A-43B3-A659-86E074068B8D}.Release|x64.Build.0 = Release|x64
+		{89ACC8F2-8F3A-43B3-A659-86E074068B8D}.Release|x86.ActiveCfg = Release|Win32
+		{89ACC8F2-8F3A-43B3-A659-86E074068B8D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16E1EACC-BC77-4545-917E-63B3091C724F}
+	EndGlobalSection
+EndGlobal
