@@ -2,16 +2,15 @@
 
 using namespace std;
 
-int P[101];
-int T, N;
+long P[101];
+long T, N;
 
-int pado(int n) {
+long pado(long n) {
 
 	if (P[n] == 0) {
 		P[n] = pado(n - 1) + pado(n - 5);
 		return P[n];
 	}
-
 	else
 		return P[n];
 }
@@ -26,8 +25,8 @@ int main() {
 	P[6] = 3;
 	P[7] = 4;
 	P[8] = 5;
-	P[9] = 7; // 4+8
-	P[10] = 9; // 5+9
+//	P[9] = 7; // 4+8
+//	P[10] = 9; // 5+9
 
 
 	cin >> T;
