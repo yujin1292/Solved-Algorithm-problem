@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[백준] 1541 잃어버린 괄호", "[백준] 1541 잃어버린 괄호\[백준] 1541 잃어버린 괄호.vcxproj", "{FE9F8965-4B39-4273-9DE0-95F3DEBAB535}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE9F8965-4B39-4273-9DE0-95F3DEBAB535}.Debug|x64.ActiveCfg = Debug|x64
+		{FE9F8965-4B39-4273-9DE0-95F3DEBAB535}.Debug|x64.Build.0 = Debug|x64
+		{FE9F8965-4B39-4273-9DE0-95F3DEBAB535}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE9F8965-4B39-4273-9DE0-95F3DEBAB535}.Debug|x86.Build.0 = Debug|Win32
+		{FE9F8965-4B39-4273-9DE0-95F3DEBAB535}.Release|x64.ActiveCfg = Release|x64
+		{FE9F8965-4B39-4273-9DE0-95F3DEBAB535}.Release|x64.Build.0 = Release|x64
+		{FE9F8965-4B39-4273-9DE0-95F3DEBAB535}.Release|x86.ActiveCfg = Release|Win32
+		{FE9F8965-4B39-4273-9DE0-95F3DEBAB535}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEF388A8-565F-4A4E-833A-E7CF23E3FCE6}
+	EndGlobalSection
+EndGlobal

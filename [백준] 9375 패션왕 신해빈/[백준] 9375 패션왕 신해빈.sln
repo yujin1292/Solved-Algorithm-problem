@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[백준] 9375 패션왕 신해빈", "[백준] 9375 패션왕 신해빈\[백준] 9375 패션왕 신해빈.vcxproj", "{EADEFBB1-8E94-440C-9450-27FAEC0AF229}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EADEFBB1-8E94-440C-9450-27FAEC0AF229}.Debug|x64.ActiveCfg = Debug|x64
+		{EADEFBB1-8E94-440C-9450-27FAEC0AF229}.Debug|x64.Build.0 = Debug|x64
+		{EADEFBB1-8E94-440C-9450-27FAEC0AF229}.Debug|x86.ActiveCfg = Debug|Win32
+		{EADEFBB1-8E94-440C-9450-27FAEC0AF229}.Debug|x86.Build.0 = Debug|Win32
+		{EADEFBB1-8E94-440C-9450-27FAEC0AF229}.Release|x64.ActiveCfg = Release|x64
+		{EADEFBB1-8E94-440C-9450-27FAEC0AF229}.Release|x64.Build.0 = Release|x64
+		{EADEFBB1-8E94-440C-9450-27FAEC0AF229}.Release|x86.ActiveCfg = Release|Win32
+		{EADEFBB1-8E94-440C-9450-27FAEC0AF229}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5829C9A-1AC5-4A4B-B6F4-B57C17AB4BAC}
+	EndGlobalSection
+EndGlobal
