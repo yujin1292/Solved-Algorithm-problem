@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[백준] 1932 정수 삼각형", "[백준] 1932 정수 삼각형\[백준] 1932 정수 삼각형.vcxproj", "{709618A1-9AC3-4235-AED0-78D5F70D933E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{709618A1-9AC3-4235-AED0-78D5F70D933E}.Debug|x64.ActiveCfg = Debug|x64
+		{709618A1-9AC3-4235-AED0-78D5F70D933E}.Debug|x64.Build.0 = Debug|x64
+		{709618A1-9AC3-4235-AED0-78D5F70D933E}.Debug|x86.ActiveCfg = Debug|Win32
+		{709618A1-9AC3-4235-AED0-78D5F70D933E}.Debug|x86.Build.0 = Debug|Win32
+		{709618A1-9AC3-4235-AED0-78D5F70D933E}.Release|x64.ActiveCfg = Release|x64
+		{709618A1-9AC3-4235-AED0-78D5F70D933E}.Release|x64.Build.0 = Release|x64
+		{709618A1-9AC3-4235-AED0-78D5F70D933E}.Release|x86.ActiveCfg = Release|Win32
+		{709618A1-9AC3-4235-AED0-78D5F70D933E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48EF1CD7-18EF-4D1F-BBDC-632BFF569C78}
+	EndGlobalSection
+EndGlobal
