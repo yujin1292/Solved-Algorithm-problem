@@ -10,39 +10,48 @@ const int MAX = 1001;
 const ll INF = 1000 * 100000 + 2;
 int N, M, start, dest;
 
-vector<pair<int, ll>> v[MAX]; // v[a] = (b,c) : a에서 b까지 c의  비용으로 이동 가능
+struct edge {
+	int to;
+	ll weight;
+	bool operator<(const edge& o) const {
+		return weight > o.weight;
+	}
+};
+
+vector<edge> v[MAX]; // v[a] = (b,c) : a에서 b까지 c의  비용으로 이동 가능
+
 ll dist[MAX];
 vector<int> route[MAX];
 
 
 void dijkstra(int start) {
 
-	for (int i = 1; i <= N; i++) dist[i] = INF;
+	fill(dist, dist + N + 1, INF);
+	priority_queue<edge> pq;
+	pq.push({ start, 0 });
 	dist[start] = 0;
 
-	priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> q;
-	q.push({ 0,start }); // 현재까지 거리, 현재 위치
+	while (!pq.empty())
+	{
+		edge cur = pq.top();
+		pq.pop();
 
-	while (!q.empty()) {
+		if (cur.weight > dist[cur.to]) // start -> cur
+			continue;
 
-		int distance = q.top().first;
-		int stopover = q.top().second;
+		for (edge& nxt : v[cur.to])
+		{
+			// [start -> cur + cur -> next]  vs  [start-> next]
+			if (dist[cur.to] + nxt.weight < dist[nxt.to])
+			{
+				// 최단거리 갱신
+				dist[nxt.to] = dist[cur.to] + nxt.weight;
+				pq.push({ nxt.to, dist[nxt.to] });
 
-		q.pop();
+				// 경로 갱신
+				route[nxt.to] = { route[cur.to].begin(), route[cur.to].end() };
+				route[nxt.to].push_back(nxt.to);
 
-		// 갱신하고자하는 src -> stopover의 거리가  기존 distacece보다 멀면 건너뛰기 
-		if (dist[stopover] < distance) continue;
-
-		for (int i = 0; i < v[stopover].size(); i++) {
-			int next = v[stopover][i].first;
-
-			int newCost = distance + v[stopover][i].second; // start -> stopover -> next
-			if (dist[next] >  newCost) {
-				dist[next] =  newCost;
-
-				q.push({ dist[next],next });
-				route[next] = { route[stopover].begin(), route[stopover].end() };
-				route[next].push_back(next);
 			}
 		}
 	}
