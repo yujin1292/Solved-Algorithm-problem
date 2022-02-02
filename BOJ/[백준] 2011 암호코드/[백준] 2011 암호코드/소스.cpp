@@ -23,7 +23,7 @@ ll decode(int start) {
 	int top = (code[start] - '0') * 10 + (code[start + 1] - '0');
 
 	if (top <= 26) {
-		dp[start] = (decode(start + 1) % MOD + decode(start + 2) % MOD) % MOD;
+		dp[start] = (decode(start + 1) + decode(start + 2)) % MOD;
 		if (len == 2) dp[start] = (dp[start] + 1) % MOD;
 		return dp[start];
 	}
@@ -38,8 +38,8 @@ int main() {
 	cin >> code;
 
 	fill(dp, dp + code.size(), -1);
-	
+
 	cout << decode(0);
-	
+
 	return 0;
 }
