@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[백준] 1525 퍼즐", "[백준] 1525 퍼즐\[백준] 1525 퍼즐.vcxproj", "{4016242A-62E2-4159-A58C-4AA19E332860}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4016242A-62E2-4159-A58C-4AA19E332860}.Debug|x64.ActiveCfg = Debug|x64
+		{4016242A-62E2-4159-A58C-4AA19E332860}.Debug|x64.Build.0 = Debug|x64
+		{4016242A-62E2-4159-A58C-4AA19E332860}.Debug|x86.ActiveCfg = Debug|Win32
+		{4016242A-62E2-4159-A58C-4AA19E332860}.Debug|x86.Build.0 = Debug|Win32
+		{4016242A-62E2-4159-A58C-4AA19E332860}.Release|x64.ActiveCfg = Release|x64
+		{4016242A-62E2-4159-A58C-4AA19E332860}.Release|x64.Build.0 = Release|x64
+		{4016242A-62E2-4159-A58C-4AA19E332860}.Release|x86.ActiveCfg = Release|Win32
+		{4016242A-62E2-4159-A58C-4AA19E332860}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97137A2E-875E-4C25-BF44-6B3F94ECD01E}
+	EndGlobalSection
+EndGlobal
